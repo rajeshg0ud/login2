@@ -141,7 +141,7 @@ form input[type="submit"]:hover{
 @media only screen and (max-width:600px){
     .input-field{
         position: relative;
-        left: 2vw;
+        left: 3vw;
     }
 
     main .container{
@@ -164,9 +164,10 @@ form{
 }    
 
 
-@media only screen and (min-width:600px )and ( max-width:990px){.input-field{
+@media only screen and (min-width:600px )and ( max-width:990px){
+    .input-field{
     position: relative;
-    left: 2.5vw;
+    left: 3vw;
 }
 
 main .container{
