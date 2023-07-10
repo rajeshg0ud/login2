@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body{
+    background:  linear-gradient(45deg,#65bc88,#028bed);
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    min-width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+main .container{
+    background-color: aliceblue;
+    position: relative;
+    min-width: 300px;
+    min-height: 45vh;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5);
+    color:black;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+}
+
+form .input-field:first-child{
+    margin-bottom: 1.5rem;
+}
+.input-field{
+    position: relative;
+}
+
+.input-field label{
+    margin-bottom: 100px;
+}
+.input-field .underline::before{
+    content: '';
+    position: absolute;
+    height: 2.5px;
+    width:100%;
+    bottom: -5px;
+    left:0;
+    background:  rgba(0, 0, 0, 0.2);;
+
+}
+
+.input-field .underline::after{
+    content: '';
+    position: absolute;
+    height: 2.5px;
+    width: 100%;
+    bottom: -5px;
+    left:0;
+    transform: scaleX(0);
+    background: linear-gradient(45deg, #65bc88, #028bed);
+    transition: all .4s ease-in-out;
+    transform-origin: left;
+}
+
+.input-field input:focus ~ .underline::after { transform: scaleX(1); }
+
+.input-field input { 
+    outline: none;
+    font-size: 0.9rem;
+    color: rgba(0, 0, 0, 0.7);
+    width: 100%;
+    margin-top: 10px;
+    background-color: aliceblue;
+}
+
+.input-field input::placeholder{
+    color:rgba(0, 0, 0, 0.5);
+}
+form input[type="submit"]{
+    margin-top: 2rem;
+    font-size: 0.9rem;
+    padding: 1.6vh;
+    font-weight: 500;
+    border-radius: 4px;
+    width: 100%;
+    background: linear-gradient(10deg,#028bed, #0373c2);
+    color:aliceblue;
+    transition: all 0.3s ease;
+}
+
+form input[type="submit"]:hover{
+    letter-spacing: 1px;
+    background: linear-gradient(65deg,#0373c2, #028bed);
+
+}
+
+.footer{
+    display: flex;
+    flex-direction: column;
+    margin: 1rem;
+}
+.footer .forgot{
+    color: #0481da;
+    text-align: center;
+    font-size: 0.9rem;
+    text-decoration:none;
+}
+.footer .forgot:hover{
+    text-decoration:underline;
+}
+
+.social-fields input[type="submit"]{
+    margin-top: 2rem;
+    font-size: 0.9rem;
+    padding: 1.6vh;
+    font-weight: 500;
+    border-radius: 4px;
+    width: 100%;
+    background: linear-gradient(10deg,#28a75b, #179b4c);
+    color:aliceblue;
+    transition: all 0.3s ease;
+}
+
+.social-fields input[type="submit"]:hover{
+    letter-spacing: 1px;
+    background: linear-gradient(65deg,#179b4c, #28a75b);
+
+}
