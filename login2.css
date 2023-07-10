@@ -19,7 +19,7 @@ body{
 main .container{
     background-color: aliceblue;
     position: relative;
-    min-width: 250px;
+    min-width: 200px;
     min-height: 40vh;
     padding: 1.6rem;
     border-radius: 8px;
