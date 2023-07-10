@@ -21,7 +21,7 @@ main .container{
     position: relative;
     min-width: 200px;
     min-height: 40vh;
-    padding: 1.4rem;
+    padding: 1.6rem;
     border-radius: 8px;
     box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5);
     color:black;
@@ -30,7 +30,7 @@ main .container{
 form{
     display: flex;
     flex-direction: column;
-    margin-top: 1.3rem;
+    margin-top: 1rem;
     align-items: center;
 }
 
@@ -39,7 +39,7 @@ form .input-field:first-child{
 }
 .input-field{
     position: relative;
-    left: 1vw;
+    left: 1.2vw;
 }
 
 .input-field label{
@@ -137,5 +137,12 @@ form input[type="submit"]:hover{
     background: linear-gradient(65deg,#179b4c, #28a75b);
 
 }
+
+@media only screen and (max-width:600px){
+    .input-field{
+        position: relative;
+        left: 2vw;
+    }
+}    
 
 
