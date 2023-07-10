@@ -10,7 +10,7 @@ body{
     background:  linear-gradient(45deg,#65bc88,#028bed);
     background-repeat: no-repeat;
     min-height: 100vh;
-    min-width: 80vw;
+    min-width: 70vw;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -31,6 +31,7 @@ form{
     display: flex;
     flex-direction: column;
     margin-top: 1rem;
+    align-items: center;
 }
 
 form .input-field:first-child{
@@ -38,6 +39,7 @@ form .input-field:first-child{
 }
 .input-field{
     position: relative;
+    left: 1vw;
 }
 
 .input-field label{
@@ -47,7 +49,7 @@ form .input-field:first-child{
     content: '';
     position: absolute;
     height: 2.5px;
-    width:100%;
+    width: 85%;
     bottom: -5px;
     left:0;
     background:  rgba(0, 0, 0, 0.2);;
@@ -58,7 +60,7 @@ form .input-field:first-child{
     content: '';
     position: absolute;
     height: 2.5px;
-    width: 100%;
+    width: 85%;
     bottom: -5px;
     left:0;
     transform: scaleX(0);
@@ -73,7 +75,7 @@ form .input-field:first-child{
     outline: none;
     font-size: 0.9rem;
     color: rgba(0, 0, 0, 0.7);
-    width: 100%;
+    width: 85%;
     margin-top: 10px;
     background-color: aliceblue;
 }
@@ -87,7 +89,7 @@ form input[type="submit"]{
     padding: 1.6vh;
     font-weight: bold;
     border-radius: 4px;
-    width: 100%;
+    width: 85%;
     background: linear-gradient(10deg,#028bed, #0373c2);
     color:aliceblue;
     transition: all 0.3s ease;
@@ -135,4 +137,5 @@ form input[type="submit"]:hover{
     background: linear-gradient(65deg,#179b4c, #28a75b);
 
 }
+
 
