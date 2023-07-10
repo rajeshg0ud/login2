@@ -21,7 +21,7 @@ main .container{
     position: relative;
     min-width: 200px;
     min-height: 40vh;
-    padding: 1.6rem;
+    padding: 1.4rem;
     border-radius: 8px;
     box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5);
     color:black;
