@@ -158,8 +158,33 @@ form input[type="submit"]:hover{
 form{
     display: flex;
     flex-direction: column;
-    margin-top: 1.5rem;
+    margin-top: 25rem;
     align-items: center;
+}
+}    
+
+
+@media only screen and (min-width:600px )and ( max-width:990px){.input-field{
+    position: relative;
+    left: 2.5vw;
+}
+
+main .container{
+background-color: aliceblue;
+position: relative;
+min-width: 190px;
+min-height: 40vh;
+padding: 1.1rem;
+border-radius: 8px;
+box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5);
+color:black;
+}
+
+form{
+display: flex;
+flex-direction: column;
+margin-top: 2.5rem;
+align-items: center;
 }
 }    
 
