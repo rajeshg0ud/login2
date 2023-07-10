@@ -10,7 +10,7 @@ body{
     background:  linear-gradient(45deg,#65bc88,#028bed);
     background-repeat: no-repeat;
     min-height: 100vh;
-    min-width: 100vw;
+    min-width: 80vw;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -21,7 +21,7 @@ main .container{
     position: relative;
     min-width: 250px;
     min-height: 40vh;
-    padding: 2rem;
+    padding: 1.6rem;
     border-radius: 8px;
     box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5);
     color:black;
@@ -30,7 +30,7 @@ main .container{
 form{
     display: flex;
     flex-direction: column;
-    margin-top: 0.7rem;
+    margin-top: 1rem;
 }
 
 form .input-field:first-child{
