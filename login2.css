@@ -84,7 +84,7 @@ form input[type="submit"]{
     margin-top: 2rem;
     font-size: 0.9rem;
     padding: 1.6vh;
-    font-weight: 500;
+    font-weight: bold;
     border-radius: 4px;
     width: 100%;
     background: linear-gradient(10deg,#028bed, #0373c2);
@@ -101,7 +101,7 @@ form input[type="submit"]:hover{
 .footer{
     display: flex;
     flex-direction: column;
-    margin: 1rem;
+    margin: 0.5rem;
 }
 .footer .forgot{
     color: #0481da;
@@ -112,15 +112,18 @@ form input[type="submit"]:hover{
 .footer .forgot:hover{
     text-decoration:underline;
 }
-
+.social-fields{
+    display: flex;
+    align-self: center;
+}
 .social-fields input[type="submit"]{
     margin-top: 2rem;
     font-size: 0.9rem;
     padding: 1.6vh;
-    font-weight: 500;
+    font-weight: bold;
     border-radius: 4px;
     width: 100%;
-    background: linear-gradient(10deg,#28a75b, #179b4c);
+    background: linear-gradient(10deg,#2ab762, #15b354);
     color:aliceblue;
     transition: all 0.3s ease;
 }
